@@ -28,11 +28,11 @@ int main(void) {
     int error_code;
     
     // Felhasználótól bekért szám
-    //ull num;
-    //printf("Enter a number to check for primality: ");
-    //scanf("%llu", &num);
+    ull num;
+    printf("Enter a number to check for primality: ");
+    scanf("%llu", &num);
     
-    ull num = 100000000000000003;
+    //ull num = 100000000000000003;
     
     
     printf("Checking number: %llu\n", num);
